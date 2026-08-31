@@ -1,0 +1,6 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:gravity="center" android:padding="24dp">
+<TextView android:id="@+id/textBluetoothStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:textSize="18sp" android:text="بلوتوث: وصل نیست ❌"/>
+<TextView android:id="@+id/textLoopbackStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:textSize="18sp" android:text="وضعیت: متوقف"/>
+<TextView android:id="@+id/textLatency" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="32dp" android:textSize="16sp" android:text="تاخیر تقریبی: —"/>
+<Button android:id="@+id/buttonStartStop" android:layout_width="200dp" android:layout_height="60dp" android:textSize="18sp" android:text="شروع"/>
+</LinearLayout>
